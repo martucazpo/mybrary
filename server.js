@@ -16,7 +16,7 @@ app.use(expressLayouts)
 app.use(express.static('public'))
 app.use(routes)
 
-mongoose.connect(process.env.DATABASE_URL, {
+mongoose.connect(process.env.DATABASE_URL || MONGODB_URI, {
 useNewUrlParser: true,
 useUnifiedTopology: true
 })
