@@ -2,7 +2,7 @@
   "name": "book-search-full-stack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ejs",
+  "main": "server.js",
   "scripts": {
     "start": "server.js",
     "devStart": "nodemon server.js"
