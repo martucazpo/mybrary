@@ -1,7 +1,8 @@
 
 const router = require('express').Router()
 const apiRoutes = require('./api')
-const Book = require('../models/book')
+const db = require('../models')
+const Book = db.Book
 
 router.use('/', apiRoutes)
 

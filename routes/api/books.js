@@ -1,6 +1,7 @@
 const router = require('express').Router()
-const Book = require('../../models/book')
-const Author = require('../../models/author') 
+const db = require('../../models')
+const Book = db.Book
+const Author = db.Author
 const imageMimeTypes = ['image/jpeg', 'image/png', 'images/gif']
 
 
