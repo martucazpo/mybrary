@@ -1,5 +1,5 @@
 
 module.exports = {
-    Book: require("./Book"),
-    Author: require("./Author")
+    Book: require("./book"),
+    Author: require("./author")
   };
