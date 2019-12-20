@@ -6,7 +6,7 @@ const app = express()
 const expressLayouts = require('express-ejs-layouts')
 const routes = require('./routes')
 const mongoose = require('mongoose')
-const dbase = mongoose.connection
+const db = mongoose.connection
 const bodyParser = require('body-parser')
 const PORT = process.env.PORT || 3000
 
@@ -23,7 +23,7 @@ mongoose.connect(process.env.DATABASE_URL || process.env.MONGODB_URI, {
 useNewUrlParser: true,
 useUnifiedTopology: true
 })
-dbase.on('error', error => console.error(error))
-dbase.once('open', () => console.log( 'mongoose is on the loose' ))
+db.on('error', error => console.error(error))
+db.once('open', () => console.log( 'mongoose is on the loose' ))
 
 app.listen(PORT)
