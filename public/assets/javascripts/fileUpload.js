@@ -2,7 +2,7 @@ const rootStyles = window.getComputedStyle(document.documentElement)
 
 if (rootStyles.getPropertyValue(
     '--book-cover-width-large'
-) != null &&  rootStyles.getPropertyValue(
+) != null && rootStyles.getPropertyValue(
     '--book-cover-width-large'
 ) != '' ) {
     ready()
