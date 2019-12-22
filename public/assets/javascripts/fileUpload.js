@@ -7,8 +7,7 @@ if (rootStyles.getPropertyValue(
 ) != '' ) {
     ready()
 } else {
-    document.getElementById('main-css')
-    .addEventListener('load', ready)
+    document.getElementById('main-css').addEventListener('load', ready)
 }
 
 function ready() {
