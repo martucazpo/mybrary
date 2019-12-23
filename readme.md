@@ -42,4 +42,4 @@ Edit was a success!:
 And here are the books -- on live server, not Heroku.
 ![books](public/readme/images/20books-not heroku.png)
 
-This app is[deployed on Heroku](https://marco-mybrary.herokuapp.com/). Thank you Web Dev Simplified!
+This app is [deployed on Heroku](https://marco-mybrary.herokuapp.com/). Thank you Web Dev Simplified!
