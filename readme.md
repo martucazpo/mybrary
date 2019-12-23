@@ -1,6 +1,6 @@
 ## Mybrary
 
-This full stack web course from [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) was another great tutorial. For the most part it was a review but I learned a lot of CSS tricks that I did not know before. I especially liked the use of one variable to change the hue used in the app, allowing everything to change color with just the change of one number. The tutorial is [Full Stack Web Course](https://www.youtube.com/watch?v=qj2oDkvc4dQ&list=PLZlA0Gpn_vH9xx-RRVNG187ETT2ekWFsq&index=32&t=0s) and I would recommend it to anybody if only for review. Other than rearranging the file structure, none of the below is my own code, I just followed along with the tutorial.
+This full stack web course from [Web Dev Simplified](https://www.youtube.com/channel/UCFbNIlppjAuEX4znoulh0Cw) was another great tutorial! For the most part it was a review, however I learned a lot of CSS. I especially liked the use of one variable to change the hue used in the app. It allowed everything to change color with just the change of one number. The tutorial is [Full Stack Web Course](https://www.youtube.com/watch?v=qj2oDkvc4dQ&list=PLZlA0Gpn_vH9xx-RRVNG187ETT2ekWFsq&index=32&t=0s) and I would recommend it to anybody. Other than rearranging the file structure, none of the below is my own code, I just followed along with the tutorial.
 
 Here is the main entrance to the app:
 ![portada](public/readme/images/1portada.png)
